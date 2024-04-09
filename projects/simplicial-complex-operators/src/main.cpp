@@ -193,6 +193,7 @@ int main(int argc, char** argv) {
     // Initialize polyscope
     polyscope::init();
 
+    std::cout<<"check here\n";
     // Set the callback function
     polyscope::state::userCallback = functionCallback;
 
